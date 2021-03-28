@@ -60,6 +60,46 @@ header {
   font-weight: normal;
 }
 
+/* ------AWAL MAIN------ */
+main {
+  height: 300px;
+}
+main img {
+  width: 100%;
+  height: 300px;
+}
+/* ------AWAL MAIN------ */
+
+/* ------AWAL CONTENT------ */
+.clear {
+  clear: left;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lesson img {
+  width: 90%;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+.lesson-icon {
+  position: relative;
+}
+
+/* -----AKHIR CONTENT------- */
+
 footer img {
   width: 125px;
 }
