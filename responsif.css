@@ -3,6 +3,19 @@
     .lesson {
         width: 50%;
     }
+    .dialog{
+    margin:0 auto;
+  }
+  .konten h3{
+    font-size: 28px;
+  }
+  
+  .heading h2{
+    font-size: 30px;
+  }
+  .heading p{
+    font-size: 24px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -39,5 +52,8 @@
   }
   .message-wrapper h3 {
     padding-bottom: 35px;
+  }
+  footer{
+    text-align: center;
   }
 }
