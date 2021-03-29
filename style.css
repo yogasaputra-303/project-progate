@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -99,6 +101,47 @@ main img {
 }
 
 /* -----AKHIR CONTENT------- */
+/* -----DIALOG------- */
+
+.dialog {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  margin-top: 150px;
+}
+.konten h3{
+  color:grey;
+}
+.konten h4{
+  color:grey;
+}
+textarea{
+  margin-bottom: 20px;
+  border:2px solid #eee;
+  padding: 12px 24px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;  
+}
 
 footer img {
   width: 125px;
